@@ -3,7 +3,7 @@ module.exports = {
     description: 'Just playing around',
     // 主题配置
     themeConfig: {
-        lastUpdated: '上次更新:',
+        lastUpdated: '上次更新',
         // 所有页面禁用导航栏
         // navbar: false,
         
@@ -33,6 +33,7 @@ module.exports = {
             children: [
               {
                 title: 'Leetcode',
+                collapsable: true,
                 children: [
                   '/algorithm/leetcode/21','/algorithm/leetcode/53','/algorithm/leetcode/104',
                   '/algorithm/leetcode/121','/algorithm/leetcode/136','/algorithm/leetcode/169',
@@ -58,7 +59,20 @@ module.exports = {
     },
 
     // 插件配置
-    plugins: ['mathjax']
+    plugins: [
+      ['mathjax'],
+      [
+        '@vuepress/last-updated',
+        {
+          transformer: (timestamp, lang) => {
+            // 不要忘了安装 moment
+            const moment = require('moment')
+            moment.locale(lang)
+            return moment(timestamp).format("YYYY-MM-DD HH:mm:ss");
+          }
+        }
+      ]
+    ]
 
 }
 
