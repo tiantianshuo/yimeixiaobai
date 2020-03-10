@@ -15,14 +15,14 @@ module.exports = {
             {text: '首页', link: '/'},
             // 下拉列表
             {
-              text: '编程题',
+              text: '每日编程',
               ariaLabel: 'Language Menu',
               items: [
                 { text: 'leetcode', link: '/algorithm/leetcode/' },
                 //{ text: '剑指offer', link: '/algorithm/剑指offer/' }
               ]
             },
-            {text: 'MySQL', link: '/mysql/'},
+            //{text: 'MySQL', link: '/mysql/'},
             {text: 'Linux', link: '/linux/'},
         ],
 
@@ -33,8 +33,22 @@ module.exports = {
             '聊聊老板让我删除日志文件那些事儿'
           ],
           '/algorithm/leetcode/':[
-            '',
-            '/algorithm/剑指offer/',
+            {
+              title:'简单',
+              children: [
+              '21', '53', '104', '121', '136',
+              '169', '198', '206', '225', '234',
+              '283', '448', '543'
+              ]
+            },
+            {
+              title:'中等',
+              children: ['338', '394', ]
+            },
+            {
+              title:'困难',
+              children: ['41']
+            }
           ]
         },
 
