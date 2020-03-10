@@ -22,33 +22,21 @@ module.exports = {
                 //{ text: '剑指offer', link: '/algorithm/剑指offer/' }
               ]
             },
-            {text: 'MySQL', link: '/mysql/'}
+            {text: 'MySQL', link: '/mysql/'},
+            {text: 'Linux', link: '/linux/'},
         ],
 
         // 0: 禁用了某页面的标题链接
         sidebarDepth: 0,
-        sidebar: [
-          {
-            title: '编程题',   // 必要的
-            children: [
-              {
-                title: 'Leetcode',
-                collapsable: true,
-                children: [
-                  '/algorithm/leetcode/21','/algorithm/leetcode/53','/algorithm/leetcode/104',
-                  '/algorithm/leetcode/121','/algorithm/leetcode/136','/algorithm/leetcode/169',
-                  '/algorithm/leetcode/198','/algorithm/leetcode/206','/algorithm/leetcode/234',
-                  '/algorithm/leetcode/283','/algorithm/leetcode/338','/algorithm/leetcode/394',
-                  '/algorithm/leetcode/448',
-                ]
-              }
-            ]
-          },
-          {
-            title: 'MySQL',
-            children: [ '/mysql/MySQL中的悲观锁与乐观锁']
-          }
-        ],
+        sidebar: {
+          '/linux/':[
+            '聊聊老板让我删除日志文件那些事儿'
+          ],
+          '/algorithm/leetcode/':[
+            '',
+            '/algorithm/剑指offer/',
+          ]
+        },
 
         displayAllHeaders: true,
 
