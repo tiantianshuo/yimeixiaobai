@@ -1,5 +1,5 @@
 module.exports = {
-    title: '天天説',
+    title: '程序猿GG的日常',
     description: 'Just playing around',
     // 主题配置
     themeConfig: {
@@ -43,7 +43,7 @@ module.exports = {
             },
             {
               title:'中等',
-              children: ['338', '394', ]
+              children: ['15', '338', '394', ]
             },
             {
               title:'困难',
