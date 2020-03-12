@@ -24,7 +24,7 @@ meta:
 
 ## 中等
 [Leetcode 15. 三数之和特位计数](./15.md)  
-[Leetcode 24. 两两交换链表中的节点](./15.md)  
+[Leetcode 24. 两两交换链表中的节点](./24.md)  
 [Leetcode 338. 比特位计数](./338.md)  
 [Leetcode 394. 字符串解码](./394.md)  
 
