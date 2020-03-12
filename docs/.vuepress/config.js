@@ -43,7 +43,7 @@ module.exports = {
             },
             {
               title:'中等',
-              children: ['15', '338', '394', ]
+              children: ['15','24', '338', '394', ]
             },
             {
               title:'困难',
