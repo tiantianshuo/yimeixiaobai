@@ -22,7 +22,7 @@ module.exports = {
                 //{ text: '剑指offer', link: '/algorithm/剑指offer/' }
               ]
             },
-            //{text: 'MySQL', link: '/mysql/'},
+            {text: 'MySQL', link: '/mysql/'},
             {text: 'Linux', link: '/linux/'},
             /*{
               text: '读书笔记',
@@ -35,6 +35,10 @@ module.exports = {
         // 0: 禁用了某页面的标题链接
         sidebarDepth: 0,
         sidebar: {
+          '/mysql/':[
+            'MySQL数据库隔离级别',
+            'MySQL中的悲观锁与乐观锁'
+          ],
           '/linux/':[
             '聊聊老板让我删除日志文件那些事儿'
           ],
@@ -55,7 +59,8 @@ module.exports = {
               title:'困难',
               children: ['41']
             }
-          ]
+          ],
+          
         },
 
         displayAllHeaders: true,
