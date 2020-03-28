@@ -24,6 +24,12 @@ module.exports = {
             },
             //{text: 'MySQL', link: '/mysql/'},
             {text: 'Linux', link: '/linux/'},
+            /*{
+              text: '读书笔记',
+              items: [
+                {text: '设计模式之禅', link: '/reading/设计模式之禅'}
+              ]
+            }*/
         ],
 
         // 0: 禁用了某页面的标题链接
@@ -43,7 +49,7 @@ module.exports = {
             },
             {
               title:'中等',
-              children: ['3', '15','16','24', '338', '394', ]
+              children: ['3', '15','16','24', '29', '338', '394', ]
             },
             {
               title:'困难',
