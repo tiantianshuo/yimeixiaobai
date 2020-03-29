@@ -84,6 +84,19 @@ module.exports = {
             return moment(timestamp).format("YYYY-MM-DD HH:mm:ss");
           }
         }
+      ],
+      [
+        'vuepress-plugin-comment',
+        {
+          choosen: 'valine', 
+          // options选项中的所有参数，会传给Valine的配置
+          options: {
+            el: '#valine-vuepress-comment',
+            appId: 'VwKVQ5ACap229Gp5v5rTVuOC-gzGzoHsz',
+            appKey: 'IgxI7r4iXcaUCqsamxqmYxyW',
+            visitor: true
+          }
+        }
       ]
     ]
 
