@@ -29,8 +29,10 @@ meta:
 [Leetcode 16. 最接近的三数之和](./16.md)  
 [Leetcode 24. 两两交换链表中的节点](./24.md)  
 [Leetcode 29. 两数相除](./29.md)  
+[Leetcode 153. 寻找旋转排序数组中的最小值](./153.md)  
 [Leetcode 338. 比特位计数](./338.md)  
 [Leetcode 394. 字符串解码](./394.md)  
 
 ## 困难
 [Leetcode 41. 缺失的第一个正数](./41.md)  
+[Leetcode 154. 寻找旋转排序数组中的最小值 II](./154.md)  
