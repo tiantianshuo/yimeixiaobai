@@ -1,5 +1,19 @@
 module.exports = {
     title: '程序猿GG的日常',
+
+    head: [
+      //['link', { rel: 'icon', href: '/image/favicon.ico' }],
+      ['script',{},`      
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?3aaa84f5b122ee5353146b6c33943171";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+      `]
+    ],
+
     description: 'Just playing around',
     // 主题配置
     themeConfig: {
