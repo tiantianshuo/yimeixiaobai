@@ -1,5 +1,5 @@
 module.exports = {
-    title: '程序猿GG的日常',
+    title: '橘子果汁',
 
     head: [
       //['link', { rel: 'icon', href: '/image/favicon.ico' }],
